@@ -65,7 +65,7 @@ class Model(dict):
         return rowid
 
     def load_config(self):
-        dbconf_file = "/Users/studyer/Work/platform/db.ini"
+        dbconf_file = "db.ini"
         conf_parser = ConfigParser.ConfigParser()
         conf_parser.read(dbconf_file)
         sections = conf_parser.sections()
